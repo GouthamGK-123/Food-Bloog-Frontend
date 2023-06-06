@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.Signin{
+  
+    display: flex;
+    margin-top: 25px;
+    flex-direction: column;
+    align-items: center;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+*/
+}
+
+.title{
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+}
+
+.main{
+    display: flex;
+   
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.main img{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.heading{
+   
+     padding: 20px 45px;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.heading a{
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+}
+
+.newuser{
+    font-size: 25px;
+    display: flex;
+    gap: 5px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 25px 55px;
+    
+}
+
+
+.formdiv{
+    padding: 35px 0px;
+}
+
+
+.greeting{
+    margin-bottom: 25px;
+}
+.con{
+    margin-left: 7px;
+}
+
+.welcome{
+  margin-bottom: 5px;
+}
+
+.emaildiv{
+    position: relative;
+}
+
+.password{
+    position: relative;
+}
+
+.password input{
+    padding-left: 38px;
+}
+
+.userlogo{
+    position: absolute;
+    top: 31px;
+    left: 10px;
+    color: rgb(99, 98, 98);
+    }
+
+.emaildiv input{
+  padding-left: 38px;
+}
+
+form input{
+    padding: 15px;
+    width: 400px;
+
+    margin: 15px 0px;
+}
+
+form button{
+    margin-top: 10px;
+    width: 170px;
+    background-color: rgb(146, 9, 146);
+    border: 0px;
+    color: white;
+    padding: 10px;
+    border-radius:25px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+form button:hover{
+    width: 200px;
+     background-color: rgb(203, 12, 203);
+}
+
+@media screen and (max-width: 30em) and (orientation: portrait) {
+ 
+   .main img{
+     display: none;
+   }
+   
+.title{
+    font-size: 15px;
+}
+.newuser{
+    font-size: 13px;
+}
+}

@@ -1,0 +1,43 @@
+.foodPage{
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.allfood{
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+}
+
+.searchinput{
+    padding: 5px 10px;
+    width: 600px;
+    align-self: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    margin: 20px 0px;
+    border: none !important;
+    outline: none !important;
+    
+}
+
+.upperfoodpage{
+    display: flex;
+    align-items: center;
+}
+
+.foodpagesummary{
+    width: 900px;
+}
+
+.foodpageimg{
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.foodpagedetails{
+    padding: 20px;
+    
+}
